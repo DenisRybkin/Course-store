@@ -1,0 +1,15 @@
+@import "../../styles/variables";
+.filled{
+  svg{
+    fill : $primary;
+  }
+}
+.star{
+  display: flex;
+  svg{
+    margin-right: 5px;
+  }
+}
+.editable{
+  cursor: pointer;
+}

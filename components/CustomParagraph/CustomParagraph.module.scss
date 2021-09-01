@@ -1,0 +1,20 @@
+@import "../../styles/variables";
+.paragraph{
+  margin: 0;
+  color: $black;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  font-style : normal
+}
+.paragraph14px{
+    font-size: 14px;
+  line-height: 24px;
+}
+.paragraph16px{
+  font-size: 16px;
+  line-height: 24px;
+}
+.paragraph18px{
+  font-size: 18px;
+  line-height: 29px;
+}

@@ -1,0 +1,21 @@
+@import "styles/variables";
+.footer{
+  font-size: 16px;
+  line-height: 20px;
+  color: $white;
+  display: grid;
+  gap: 10px 40px;
+  grid-template-columns: 1fr auto auto;
+  background-color: $primary;
+  padding: 25px 30px;
+  a{
+    &:hover{
+      color: $grey-light;
+    }
+  }
+}
+@media (max-width: 765px) {
+  .footer{
+    grid-template-columns: 1fr;
+  }
+}
